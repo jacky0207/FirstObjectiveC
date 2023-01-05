@@ -16,7 +16,7 @@
     _textField.textColor = [UIColor blackColor];
     _textField.layer.borderWidth = 1;
     _textField.layer.borderColor = [UIColor blackColor].CGColor;
-    _textField.layer.cornerRadius = 1;
+    _textField.layer.cornerRadius = 2;
     [_textField addTarget:self action:@selector(handleEditingText) forControlEvents:UIControlEventEditingChanged];
     [self.contentView addSubview:_textField];
 
